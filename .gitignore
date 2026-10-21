@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+*.textClipping
+
+# Large geospatial data (keep out of git)
+*.tif
+*.tiff
+*.tif.aux.xml
+*.kmz
+
+# Backups / Python
+*.bak
+__pycache__/
+*.pyc
