@@ -7,8 +7,17 @@
 *.tiff
 *.tif.aux.xml
 *.kmz
+*.gpkg
+
+# Exceptions: inputs needed to regenerate the synthetic tests on another computer
+!data/ECOSTRESS_LST_10m_2020-07-01_to_2020-07-30_plus_2022_2023_2024_LST.tif
+!synthetic_tests/data/ECOSTRESS_LST_10m_2020-07-01_to_2020-07-30_plus_2022_2023_2024_LST.tif
+!data/20210524t215658_LosAngelesCA_L2_B103_V01_L2_LST_geo_UTM.tif
 
 # Backups / Python
 *.bak
 __pycache__/
 *.pyc
+
+# Local Claude Code settings
+.claude/settings.local.json
